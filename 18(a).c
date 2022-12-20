@@ -3,21 +3,21 @@
 
 int main() {
 
-    int size, i, *ptrArray, sum = 0;
+    int size, i, sum = 0;
     printf("\nEnter size of array: ");
     scanf("%d", &size);
 
-    ptrArray = (int*) malloc(size * sizeof(int));
+    int array[size];
 
     // Asking Elements from user
     for (i=0; i<size; i++) {
         printf("\nEnter element %d : ", i+1);
-        scanf("%d", &ptrArray[i]);
+        scanf("%d", &array[i]);
     } 
 
     // Finding Average
     for (i=0; i<size; i++) {
-        sum += ptrArray[i];
+        sum += array[i];
     } 
 
     printf("\nAverage of the elements in Array is %0.2f", (float) sum/size);
