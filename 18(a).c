@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
 
@@ -13,10 +12,6 @@ int main() {
     for (i=0; i<size; i++) {
         printf("\nEnter element %d : ", i+1);
         scanf("%d", &array[i]);
-    } 
-
-    // Finding Average
-    for (i=0; i<size; i++) {
         sum += array[i];
     } 
 
