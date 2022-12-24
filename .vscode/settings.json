@@ -4,6 +4,7 @@
         "ARITHM~1.C": "cpp",
         "SWAP.C": "cpp",
         "COMPUTE.C": "cpp",
-        "IOFUNC~1.C": "cpp"
+        "IOFUNC~1.C": "cpp",
+        "stdbool.h": "c"
     }
 }
