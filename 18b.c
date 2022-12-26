@@ -34,10 +34,8 @@ int main(){
 	for (i = 0; i < rowCount; ++i) {
 		for (j = 0; j < colCount; ++j) {
 			printf("%d  ", matC[i][j]);
-			if (j == colCount - 1) {
-				printf("\n\n");
-			}
 		}
+		printf("\n\n");
 	}
 
 	return 0;

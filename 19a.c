@@ -18,20 +18,26 @@ void printArray(int array[], int size) {
 } 
 
 void sortArray(int array[], int size, bool asc) {
+	// Stopping pas if array is sorted	
 
-    int step, i, temp;
+    int step, i, temp, dummy, pass = 0;
     
     for (step = 0; step < size - 1; step++) {
-
+		dummy = 0;
         for (i = 0; i < size - step - 1; i++) {
 
             if ((asc == true && array[i] > array[i + 1]) || (asc == false && array[i] < array[i + 1])) {
-                temp = array[i];
+                dummy = 1;
+				temp = array[i];
                 array[i] = array[i + 1];
                 array[i + 1] = temp;
             }
-        }
+    	}
+        if (dummy == 0) break;
+        pass++;
     }
+    
+    printf("\nTotal Number of Passes : %d", pass);
 }
 
 int main() {
