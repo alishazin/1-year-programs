@@ -7,12 +7,12 @@ float findSum(float num1, float num2) {
 
 int main() {
 
-    float num1, num2;
+    float num1, num2, sum;
 
     printf("\nEnter two numbers to find sum: ");
     scanf("%f %f", &num1, &num2);
 
-    float sum = findSum(num1, num2);
+    sum = findSum(num1, num2);
 
     printf("\nSum: %0.2f", sum);
 
