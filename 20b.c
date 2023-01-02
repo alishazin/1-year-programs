@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float findSum(float num1, float num2) {
+float findSum() {
     float num1, num2, sum;
 
     printf("\nEnter two numbers to find sum: ");
@@ -11,7 +11,7 @@ float findSum(float num1, float num2) {
 
 int main() {
 
-    sum = findSum(num1, num2);
+    float sum = findSum(num1, num2);
 
     printf("\nSum: %0.2f", sum);
 
