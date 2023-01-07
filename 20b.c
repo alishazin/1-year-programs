@@ -11,7 +11,7 @@ float findSum() {
 
 int main() {
 
-    float sum = findSum(num1, num2);
+    float sum = findSum();
 
     printf("\nSum: %0.2f", sum);
 
