@@ -9,7 +9,7 @@ int main() {
 	printf("\nEnter day, weather : ");
 	scanf("%s %s", &day, &weather);
 	
-	if ((strcmp(strlwr(day), "sunday") == 0 && strcmp(strlwr(weather), "snowing") == 0) || \
+	if ((strcmp(strlwr(day), "sunday") == 0 && strcmp(strlwr(weather), "snowing") == 0) || 
 		(strcmp(strlwr(day), "monday") == 0 && strcmp(strlwr(weather), "raining") == 0)) {
 			printf("1");
 		} else {

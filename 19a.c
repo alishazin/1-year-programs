@@ -18,7 +18,7 @@ void printArray(int array[], int size) {
 } 
 
 void sortArray(int array[], int size, bool asc) {
-	// Stopping pas if array is sorted	
+	// Stopping pass if array is sorted	
 
     int step, i, temp, dummy, pass = 0;
     
